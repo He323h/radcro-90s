@@ -1,0 +1,6 @@
+{
+  "name": "Street Striker '96 - Arcade 2D Fighter",
+  "description": "Retro 90s arcade 2D fighting game featuring 60 FPS combat, pixel art stages, special moves, combos, AI & 2-player modes, and virtual controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Blastar Reborn",
+  "description": "A high-performance 60 FPS HTML5 Canvas arcade space shooter inspired by Blastar Reborn with retro spaceship cockpit UI, dynamic environments, and synth audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Super Pixel Adventure GBA",
+  "description": "A classic 90s GBA-style retro platformer arcade game with smooth 60 FPS physics, pixel-art visuals, on-screen handheld controls, and nostalgic sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

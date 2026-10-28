@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #050508;
+    color: #f1f5f9;
+    font-family: 'Chakra Petch', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    overflow: hidden;
+  }
+}
+
+.font-arcade {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-fighter {
+  font-family: 'Teko', sans-serif;
+}
+
+/* Retro CRT Scanline Overlay */
+.crt-overlay::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.45) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  z-index: 20;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+.crt-vignette::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  z-index: 21;
+}
+
+/* Arcade text glow */
+.text-glow-yellow {
+  text-shadow: 0 0 8px rgba(250, 204, 21, 0.8), 0 0 20px rgba(234, 88, 12, 0.5);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.9), 0 0 20px rgba(185, 28, 28, 0.6);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.9), 0 0 20px rgba(14, 165, 233, 0.6);
+}
+
+/* Arcade Button Pressed animation */
+.arcade-btn:active {
+  transform: translateY(2px) scale(0.96);
+}
