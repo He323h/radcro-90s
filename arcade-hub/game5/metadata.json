@@ -1,0 +1,6 @@
+{
+  "name": "Road Fighter Retro",
+  "description": "High-octane retro 2D top-down highway racing and vehicular combat game with weather modes (Winter, Summer, Sunrise, Rain), car shooting, rival ramming, and fuel management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Sword of Xolan - Retro 16-Bit Action Platformer",
+  "description": "A 16-bit retro hack-and-slash action-platformer featuring fluid combat, double jumps, magic spells, caged villagers to rescue, and dungeon hazards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
